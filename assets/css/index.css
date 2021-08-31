@@ -1,0 +1,129 @@
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes yourAnimation {
+        0.0%{
+        }
+        10.4%{
+            transform-origin: bottom-left;
+            transform: rotate(180deg) scale(2) rotate3d(0, 1, 2, 45deg);
+            background: black;
+            color: red;
+            opacity: 1;
+            width: 100px;
+            height: 100px;
+            top: 25px;
+            right: 25%;
+            bottom: 20vh;
+            left: 50px;
+            border: 2px solid;
+        }
+        100%{
+            width: 100px;
+            height: 100%;
+            transform-origin: bottom right;
+            transform: rotate(180deg) scale(2) rotate3d(0, 1, 1, 45deg);
+            background: black;
+            opacity: 1;
+            color: blue;
+            border: 2px solid;
+        }
+        38.3%{
+            width: 100px;
+            height: 100%;
+            transform-origin: bottom left;
+            transform: rotate(360deg) scale(2) rotate3d(0, 1, 1, 45deg);
+            background: black;
+            opacity: 1;
+            color: yellow;
+            border: 2px solid;
+        }
+        70.4%{
+            width: 100px;
+            height: 100%;
+            transform-origin: bottom right;
+            transform: rotate(0deg) scale(2) rotate3d(0, 1, 1, 45deg);
+            background: black;
+            opacity: 1;
+            color: green;
+            border: 2px solid;
+        }
+    }
+    
+    
+    /* Add the animation: property to whichever element you want to animate */
+    #elementToAnimate{
+        animation: yourAnimation 10s ease 0s infinite normal none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+
+    /* Copy this @keyframes block to your CSS*
+@keyframes yourAnimation {
+        0.0%{
+        }
+        10.4%{
+            transform-origin: bottom-left;
+            transform: rotate(180deg) scale(2) rotate3d(0, 1, 2, 45deg);
+            background: black;
+            color: red;
+            opacity: 1;
+            width: 100px;
+            height: 100px;
+            top: 25px;
+            right: 25%;
+            bottom: 20vh;
+            left: 50px;
+            border: 2px solid;
+        }
+        100%{
+            width: 100px;
+            height: 100%;
+            transform-origin: bottom right;
+            transform: rotate(180deg) scale(2) rotate3d(0, 1, 1, 45deg);
+            background: black;
+            opacity: 1;
+            color: blue;
+            border: 2px solid;
+        }
+        38.3%{
+            width: 100px;
+            height: 100%;
+            transform-origin: bottom left;
+            transform: rotate(360deg) scale(2) rotate3d(0, 1, 1, 45deg);
+            background: black;
+            opacity: 1;
+            color: yellow;
+            border: 2px solid;
+        }
+        70.4%{
+            width: 100px;
+            height: 100%;
+            transform-origin: bottom right;
+            transform: rotate(0deg) scale(2) rotate3d(0, 1, 1, 45deg);
+            background: black;
+            opacity: 1;
+            color: green;
+            border: 2px solid;
+        }
+    }
+    
+    
+    /* Add the animation: property to whichever element you want to animate */
+    #elementToAnimate{
+        animation: yourAnimation 10s ease 0s infinite normal none;
+    }
+
+    */
